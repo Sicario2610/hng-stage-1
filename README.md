@@ -9,6 +9,30 @@ This API takes a number as input and returns its mathematical properties along w
 - Calculates the **digit sum**.
 - Fetches a **fun fact** about the number.
 
+## TECH STACK 
+- **Node.js (Express.js)**
+- **Axios** (for fetching fun facts)
+- **CORS** (for handling cross-origin requests)
+- Deployed on: (**Render**)
+
+## Setup Instructions
+### Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed.
+
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Sicario2610/hng-stage-1.git
+   cd ABDULRASHEED aBDULBASIT HNG 12 TASK 1
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the server:
+   ```sh
+   npm run dev
+   ```
+
 ## 📌 API Endpoint
 ### `GET /api/classify-number`
 **Query Parameter:**  
@@ -31,7 +55,7 @@ This API takes a number as input and returns its mathematical properties along w
     "digit_sum": 11,
     "fun_fact": "371 is a narcissistic number."
 }
-
+```
 
 **Example Response (`200 OK`):**
 ```json
@@ -39,8 +63,12 @@ This API takes a number as input and returns its mathematical properties along w
     "number": "abc",
     "error": true
 }
+```
+
+## Deployment
+The API is publicly accessible at: [https://hng-stage0-86go.onrender.com](https://hng-stage0-86go.onrender.com)
+ 
+## Backlink
+[Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
 
 
-## TECH STACK 
-
--
