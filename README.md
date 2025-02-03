@@ -66,7 +66,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed.
 ```
 
 ## Deployment
-The API is publicly accessible at: [https://hng-stage0-86go.onrender.com](https://hng-stage0-86go.onrender.com)
+The API is publicly accessible at: [https://hng-stage-1-hnce.onrender.com/api/classify-number](https://hng-stage-1-hnce.onrender.com/api/classify-number)
  
 ## Backlink
 [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
