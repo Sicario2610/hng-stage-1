@@ -1,38 +1,46 @@
-# HNG12 Public API
+# Number Classification API
 
-## Overview  
-The Number Classification API analyzes a given number and returns its mathematical properties along with a fun fact. It determines whether the number is:  
+This API takes a number as input and returns its mathematical properties along with a fun fact.
 
-## Features
-Return JSON containing the properties of a number which inludes the following
-- **Prime** or **Perfect**  
-- **Armstrong** or **Not**  
-- **Even** or **Odd** 
-- **Digit Sum**  
-- **Fun Fact** (via [Numbers API](http://numbersapi.com/#42))
+## 🚀 Features
+- Checks if the number is **prime** or **perfect**.
+- Determines if the number is **odd** or **even**.
+- Identifies **Armstrong numbers**.
+- Calculates the **digit sum**.
+- Fetches a **fun fact** about the number.
 
-## Tech Stack
-- **Node.js** with **Express.js**
-- **AXIOS** for making AJAX request to **Numbers API**
-- **Compression** for Gzip compression
-- **CORS** for handling cross-origin requests
+## 📌 API Endpoint
+### `GET /api/classify-number`
+**Query Parameter:**  
+- `number` (integer, required): The number to classify.
 
-## Setup Instructions
-### Prerequisites
-Ensure you have [Node.js](https://nodejs.org/) installed.
+**Example Request:**  
+### `GET http://127.0.0.1:3000/api/classify-number?number=371`
 
-### Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Sicario2610/hng-stage0.git
-   cd hng-stage0
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the server:
-   ```sh
-   npm run dev
 
-## API Documentation
-### Endpoint: `GET `
+**Example Response (`200 OK`):**
+```json
+{
+    "number": "371",
+    "is_prime": false,
+    "is_perfect": false,
+    "properties": [
+        "armstrong",
+        "odd"
+    ],
+    "digit_sum": 11,
+    "fun_fact": "371 is a narcissistic number."
+}
+
+
+**Example Response (`200 OK`):**
+```json
+{
+    "number": "abc",
+    "error": true
+}
+
+
+## TECH STACK 
+
+-
