@@ -1,0 +1,22 @@
+{
+  "name": "abdulrasheed-abdulbasit-hng-12-task-1",
+  "version": "1.0.0",
+  "description": "HNG-12 task-1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gbonjubola",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "compression": "^1.7.5",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
