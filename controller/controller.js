@@ -26,7 +26,7 @@ const analyszeNumber = async (req, res) => {
 
         // Send a response containing all the analysis about the number
         res.status(200).json({
-            number,
+            num,
             is_prime: isPrime(num),
             is_perfect: isPerfect(num),
             properties: getProperties(num),
