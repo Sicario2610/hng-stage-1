@@ -13,7 +13,7 @@ This API takes a number as input and returns its mathematical properties along w
 - **Node.js (Express.js)**
 - **Axios** (for fetching fun facts)
 - **CORS** (for handling cross-origin requests)
-- Deployed on: (**Render**)
+- Deployed on: (**Vercel**)
 
 ## Setup Instructions
 ### Prerequisites
@@ -66,7 +66,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed.
 ```
 
 ## Deployment
-The API is publicly accessible at: [https://hng-stage-1-hnce.onrender.com/api/classify-number](https://hng-stage-1-hnce.onrender.com/api/classify-number)
+The API is publicly accessible at: [https://abdulrasheed-abdulbasit-hng-12-task-1-ivkiu1g2l.vercel.app/api/classify-number](https://abdulrasheed-abdulbasit-hng-12-task-1-ivkiu1g2l.vercel.app/api/classify-number)
  
 ## Backlink
 [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
