@@ -13,6 +13,7 @@ This API takes a number as input and returns its mathematical properties along w
 - **Node.js (Express.js)**
 - **Axios** (for fetching fun facts)
 - **CORS** (for handling cross-origin requests)
+- **Compression** (for reducing api response payload size to increase API response speed)
 - Deployed on: (**Vercel**)
 
 ## Setup Instructions
