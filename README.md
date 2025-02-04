@@ -67,7 +67,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed.
 ```
 
 ## Deployment
-The API is publicly accessible at: [https://abdulrasheed-abdulbasit-hng-12-task-1-ivkiu1g2l.vercel.app/api/classify-number](https://abdulrasheed-abdulbasit-hng-12-task-1-ivkiu1g2l.vercel.app/api/classify-number)
+The API is publicly accessible at: [https://abdulrasheed-abdulbasit-hng-12-task-1-epfcc3qur.vercel.app/api/classify-number](https://abdulrasheed-abdulbasit-hng-12-task-1-epfcc3qur.vercel.app/api/classify-number)
  
 ## Backlink
 [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
