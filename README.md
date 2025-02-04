@@ -46,7 +46,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed.
 **Example Response (`200 OK`):**
 ```json
 {
-    "number": "371",
+    "number": 371,
     "is_prime": false,
     "is_perfect": false,
     "properties": [
@@ -58,7 +58,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed.
 }
 ```
 
-**Example Response (`200 OK`):**
+**Example Response (`400 Bad Request`):**
 ```json
 {
     "number": "abc",
@@ -67,9 +67,11 @@ Ensure you have [Node.js](https://nodejs.org/) installed.
 ```
 
 ## Deployment
-The API is publicly accessible at: [https://abdulrasheed-abdulbasit-hng-12-task-1-epfcc3qur.vercel.app/api/classify-number](https://abdulrasheed-abdulbasit-hng-12-task-1-epfcc3qur.vercel.app/api/classify-number)
+The API is publicly accessible at: [https://abdulrasheed-abdulbasit-hng-12-task-1-7kpbe89bj.vercel.app/api/classify-number](https://abdulrasheed-abdulbasit-hng-12-task-1-7kpbe89bj.vercel.app/api/classify-number)
  
 ## Backlink
+Looking to hire skilled Node.js developers for your next project? Check out the HNG developer talent pool:
 [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
+This link directs you to the HNG Hiring Platform, where you can find talented backend developers specializing in **Node.js, Express.js, and API development**. 
 
 
