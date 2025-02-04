@@ -1,7 +1,7 @@
-const express = require("express")
+const express = require("express");
 const compression = require("compression");
 const cors = require("cors");
-const router = require("./routes/route")
+const router = require("./routes/route");
 
 const app = express()
 const PORT = process.env.PORT || 3000;
