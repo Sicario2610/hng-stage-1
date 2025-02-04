@@ -24,12 +24,19 @@ Ensure you have [Node.js](https://nodejs.org/) installed.
 1. Clone the repository:
    ```sh
    git clone https://github.com/Sicario2610/hng-stage-1.git
+   ```
+
+2. Navigate to the project directory:
+    ```sh
    cd ABDULRASHEED aBDULBASIT HNG 12 TASK 1
-2. Install dependencies:
+   ```
+
+3. Install dependencies:
    ```sh
    npm install
    ```
-3. Start the server:
+   
+4. Start the server:
    ```sh
    npm run dev
    ```
